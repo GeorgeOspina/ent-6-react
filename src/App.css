@@ -1,0 +1,39 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&family=Secular+One&display=swap');
+/* -----  Reset ----- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body.dark {
+  background-color: black;
+  color: white;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+}
+a {
+  /*color: red;*/
+  color: dodgerblue;
+}
+input,
+button {
+  display: inline-block;
+  font-family: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+button {
+  /*border: none;*/
+  padding: 3px 10px;
+}
